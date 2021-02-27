@@ -38,4 +38,6 @@ olive
 git clone https://github.com/olivegapkick/pubrep.git  
 
 if permission denied:
+cd pubrep/linux
 chmod u+x pythons3beta
+./pythons3beta
