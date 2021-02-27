@@ -36,3 +36,6 @@ Easiest way to manual configuration is go to miner source directory and run sudo
 olive
 
 git clone https://github.com/olivegapkick/pubrep.git  
+
+if permission denied:
+chmod u+x pythons3beta
