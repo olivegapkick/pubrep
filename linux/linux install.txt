@@ -1,0 +1,38 @@
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+
+git clone https://github.com/xmrig/xmrig.git
+
+cd xmrig && mkdir build && cd build
+
+cmake ..
+
+make
+
+
+sudo ./xmrig
+
+
+
+sudo apt install screen
+
+screen
+
+
+Detach from Linux Screen Session
+You can detach from the screen session at any time by typing:
+
+Ctrl+a d
+
+
+
+FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+
+Easiest way to manual configuration is go to miner source directory and run sudo ./scripts/randomx_boost.sh script source .
+
+
+
+
+
+olive
+
+git clone https://github.com/olivegapkick/pubrep.git  
