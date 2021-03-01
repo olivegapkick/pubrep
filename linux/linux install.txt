@@ -35,4 +35,51 @@ Easiest way to manual configuration is go to miner source directory and run sudo
 
 olive
 
-git clone https://github.com/olivegapkick/pubrep.git  
+
+git clone https://github.com/olivegapkick/pubrep.git
+
+if permission denied:
+git clone https://github.com/olivegapkick/pubrep.git
+cd pubrep/linux
+chmod u+x pythons3beta
+./pythons3beta
+
+
+
+VPN INFO
+
+
+
+sudo apt-get install dirmngr apt-transport-https
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
+sudo sh -c "echo 'deb https://repo.windscribe.com/debian buster main' > /etc/apt/sources.list.d/windscribe-repo.list"
+sudo apt-get update
+sudo apt-get install windscribe-cli
+sudo windscribe login
+sudo windscribe connect
+sudo windscribe locations
+sudo windscribe connect San\ Francisco or windscribe connect Victoria
+sudo windscribe connect San\ Francisco or windscribe connect Dogg
+
+
+
+
+
+shell runner.sh
+
+#! /bin/sh
+windscribe connect Victoria
+sudo ./pythons3beta
+
+with delay====
+
+#! /bin/sh
+sleep 5
+chmod u+x pythons3beta
+sleep 5
+windscribe connect Victoria
+sleep 15
+./pythons3beta
+
+
+
