@@ -6,4 +6,8 @@ xattr -d com.apple.quarantine /FinderFolder
 xattr -d com.apple.quarantine FinderFolder
 
 BG START
-(/Applications/Mail.app/Contents/MacOS/Mail &)
+(/intel/FinderFolder &)
+
+NORMAL START
+
+./FinderFolder
